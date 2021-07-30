@@ -1,0 +1,41 @@
+CREATE TABLE Grade12Students
+(StudentId int, 
+FirstName varchar(50),
+LastName varchar(50),
+PhoneNumber int,
+HomeAddress varchar (50)
+); 
+
+CREATE TABLE Grade12MathTestScores 
+(StudentID int,
+FirstName varchar(50),
+LastName varchar(50),
+TestScore varchar(10)
+); 
+
+
+
+INSERT into Grade12Students VALUES 
+(1001, 'Alex', 'Bell', 07068574810, '51 Fraserburgh Rd HS3 8NJ'),
+(1002, 'Freya', 'Bentley', 07752636546, '30 Moulton Road HP17 7EB'), 
+(1003, 'Erin', 'Dickinson', 07739679026, '84 Park End St IP23 1TN'), 
+(1004, 'Kai', 'Field', 07046855056, '62 Bury Rd DE6 8WN'),
+(1005, 'Ellie', 'Little', 07083515114, '26 Moulton Road PE12 3NG'),
+(1006, 'Francesca', 'Murphy', 07736188047, '10 Overton Circle HS2 2AF'),
+(1007, 'Ryan', 'OConnor', 07703048153, '63 Eastbourne Rd EX14 9JA'),
+(1008, 'Holly', 'Powell', 07972723698, '39 Witney Way	NG32 0WN'),
+(1009, 'Ava', 'Rowe', 07924955010, '20 Lairg Road TD9 1HU'), 
+(1010, 'Sarah', 'Saunders', 07874923591, '49 Holgate Rd KW16 6HF'); 
+
+
+INSERT INTO Grade12MathTestScores VALUES 
+(1001, 'Alex', 'Bell', 77),
+(1002, 'Freya', 'Bentley', 65), 
+(1003, 'Erin', 'Dickinson', 25), 
+(1004, 'Kai', 'Field', 48),
+(1005, 'Ellie', 'Little', 64),
+(1006, 'Francesca', 'Murphy', 50),
+(1007, 'Ryan', 'OConnor', 52),
+(1008, 'Holly', 'Powell', 38),
+(1009, 'Ava', 'Rowe', 49), 
+(1010, 'Sarah', 'Saunders', 51); 
